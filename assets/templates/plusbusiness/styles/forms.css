@@ -1,0 +1,62 @@
+/*
+Template Name: PlusBusiness
+File: Forms CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 Unported License</a>
+*/
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+/* ----------------------------------------------Forms in Content Area-------------------------------------*/
+
+#container #respond{display: block; width:100%;}
+04
+#container #respond input{width:300px; padding:2px; border:1px solid #CCCCCC; margin:5px 5px 0 0; }
+05
+#container #respond select{width:307px; padding:2px; border:1px solid #CCCCCC; margin:5px 5px 0 0; }
+06
+#container #respond textarea{width:300px; border:1px solid #CCCCCC; padding:2px; overflow:auto;}   
+07
+#container #respond p{margin:5px 0;}
+08
+#container #respond #submit{
+    width:148px;   
+    margin:0;
+    padding:5px;
+    color:#666666;
+    background-color:#F7F7F7;
+    border:1px solid #CCCCCC;
+    cursor:pointer;
+    }
+#container #respond .vericodeform { width:142px;}
+.errors {background:#ffcece; border: 1px solid #cc4e4e; padding:5px; width:300px; }
+
+/* ----------------------------------------------Search Form-------------------------------------*/
+
+#topbar input{
+	display:block;
+	float:left;
+	width:238px;
+	margin:0 5px 0 0;
+	padding:5px;
+	color:#333333;
+	background-color:#FFFFFF;
+	border:1px solid #999999;
+	
+	}
+
+#topbar input#go{
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:4px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#FFFFFF;
+	background-color:#C80000;
+	border-color:#C80000;
+	cursor:pointer;
+	}
